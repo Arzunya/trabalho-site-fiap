@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.father{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#telalogin{
+    width: 300px;
+    margin: 5px;
+    
+    background-color: rgba(34, 64, 141, 1);
+    
+}
+
+#botao{
+    
+    background-color: rgba(0, 196, 178, 1);
+}
